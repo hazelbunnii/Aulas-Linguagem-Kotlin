@@ -1,0 +1,17 @@
+fun bonus(valor: String):String{
+    if(valor == "Gerente"){
+        return "2000"
+    }else if(valor == "Coordenador"){
+        return "1500"
+    }else if(valor == "Engenheiro"){
+        return "1000"
+    }else if(valor == "estagiario"){
+        return "500"   
+    }else{
+        return "Cargo incorreto"
+    }
+}
+
+fun main() {
+    println("Seu bônus será de: ${bonus("Gerente")}")
+}

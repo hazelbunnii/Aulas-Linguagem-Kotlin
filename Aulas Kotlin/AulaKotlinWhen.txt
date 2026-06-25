@@ -1,0 +1,17 @@
+/*fun main() {
+  val n=20
+    when(n){
+        in 1..10-> println("O valor $n tem peso 1")
+        in 11..20-> println("O valor $n tem peso 2")
+        in 21..30-> println("O valor $n tem peso 3")
+        else-> println("Fora da tabela")
+    }
+}*/
+
+
+/*fun num(n: Boolean): String{
+    when(n){
+        true-> println ("1..10")
+        false-> println ("11..20")
+    }
+}*/
